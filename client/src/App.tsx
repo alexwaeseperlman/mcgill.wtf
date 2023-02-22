@@ -77,7 +77,6 @@ const App: React.ElementType = () => {
             children={<SearchIcon color='gray.300' />}
           />
           <Input
-            value={value}
             placeholder='Search for a course'
             onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
               handleInputChange(event.target.value)
